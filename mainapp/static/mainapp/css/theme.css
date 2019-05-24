@@ -481,6 +481,13 @@ section {
     background: #63c76a;
 }
 
+.au-btn--posh {
+    background: #2C3E50;
+}
+.au-btn--posh:hover {
+    background: #34495E;
+}
+
 .au-btn--green:hover {
     background: #59bd60;
 }

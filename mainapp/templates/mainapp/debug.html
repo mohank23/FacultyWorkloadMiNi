@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debug</title>
+</head>
+<body>
+{% if user %}
+    Welcome {{ user.name }}
+{% endif %}
+{% if err %}
+    {{ err }}
+{% endif %}
+</body>
+</html>
